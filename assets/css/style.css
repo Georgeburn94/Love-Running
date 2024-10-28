@@ -99,6 +99,7 @@ main {
     background-color: lightblue;
     /* Makes sure the content in the body will take up any surplus space and will push footer down */
     flex: 1 0 auto;
+    margin-top: 39px;
 }
 
 /* Footer */
