@@ -65,6 +65,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    padding: 0.2rem 0;
 }
 
 /* Navbar styles when dropdown toggle applied */
@@ -99,10 +100,45 @@ main {
     background-color: lightblue;
     /* Makes sure the content in the body will take up any surplus space and will push footer down */
     flex: 1 0 auto;
-    margin-top: 39px;
+    margin-top: 45px;
 }
 
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media Query: Tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 81px;
+    }
+    
 }
