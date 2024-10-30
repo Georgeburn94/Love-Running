@@ -195,6 +195,29 @@ main {
     justify-content: center;
 }
 
+/* Meetups Section */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid #fafafa;
+}
+
+#times h3 {
+    /* Override the h3 color set in general styles */
+    color: #fafafa;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
