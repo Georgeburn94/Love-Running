@@ -253,6 +253,15 @@ main {
     color: #3a3a3a;
 }
 
+/* Media  query: large or landscape phones (576px and up) */
+@media screen and (min-width: 567px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     /* Header */
@@ -312,7 +321,14 @@ main {
         align-self: flex-end;
     }
 
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+
 }
+
+
 
 /* For laptops 992px and up */
 
@@ -349,6 +365,11 @@ main {
         width: 33%;
         order: 2;
         margin-top: 15px;
+    }
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 
 }
