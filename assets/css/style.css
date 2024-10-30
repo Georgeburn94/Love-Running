@@ -130,9 +130,11 @@ main {
     color: #ffffff;
 }
 
-/* Reasons box */
+/* Reasons Section */
 #reasons {
     width: 90%;
+    position:relative;
+    left: 5%;
 }
 
 #reasons h2 {
@@ -143,9 +145,7 @@ main {
 
 /* Benefits Box */
 
-#benefits-physical {
-    margin: 20px;
-}
+    /* Benefits Physical */
 
 #benefits-physical div {
     line-height: 20px;
@@ -156,8 +156,22 @@ main {
     padding: 0 20px;
 }
 
-#benefits-physical hr {
-    border-top: 1px solid #3a3a3a;
+#benefits-physical, hr {
+    /* border-top: 1.5px solid #3a3a3a; */
+    margin: 5px 0;
+}
+
+#benefits-mental div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-mental p {
+    padding: 0 20px;
+}
+
+#benefits-mental, hr {
+    /* border-top: 1.5px solid #3a3a3a; */
     margin: 5px 0;
 }
 
