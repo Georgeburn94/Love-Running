@@ -253,6 +253,17 @@ main {
     color: #3a3a3a;
 }
 
+/* Signup Styling */
+
+#signup-bg {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background-image: url("assets/images/signup-image.webp");
+}
+
 /* Media  query: large or landscape phones (576px and up) */
 @media screen and (min-width: 567px) {
     #photos {
