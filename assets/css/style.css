@@ -230,6 +230,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    border-top: #3a3a3a 1px solid;
 }
 
 #social-networks i {
